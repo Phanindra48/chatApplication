@@ -4,13 +4,9 @@ import {Link} from 'react-router';
 class Home extends React.Component {
   constructor(props) {
     super(props);
-    this.onChange = this.onChange.bind(this);
   }
 
 
-  onChange(state) {
-    this.setState(state);
-  }
 
 
 

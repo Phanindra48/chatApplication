@@ -1,11 +1,10 @@
 import React from 'react';
-import {Route} from 'react-router';
+import {Route, DefaultRoute, NotFoundRoute} from 'react-router';
 import App from './components/App';
 import Home from './components/Home';
-import NotFound from './components/NotFound';
 
 export default (
-  <Route handler={App} path="/">
+  <Route handler={App} >
     <Route path='/' handler={Home} />
   </Route>
 );
